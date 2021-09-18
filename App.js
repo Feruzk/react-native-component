@@ -9,21 +9,7 @@ import AddItem from './components/AddItem';
 const App = () => {
   const [items, setItems] = useState([
     {
-      id: uuid(),
-      text: 'Milk',
-    },
-    {
-      id: uuid(),
-      text: 'Eggs',
-    },
-    {
-      id: uuid(),
-      text: 'Bread',
-    },
-    {
-      id: uuid(),
-      text: 'Juice',
-    },
+  // here must be DB embedded data
   ]);
 
   // Flag true if user is currently editing an item
